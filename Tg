@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CristyBoom - Belleza y Maquillaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2;
+            color: #333;
+        }
+        header {
+            background-color: #ff99cc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff66b2;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .bio, .productos, .contacto {
+            background-color: #ffe6f2;
+            border: 1px solid #ff99cc;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ff99cc;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .producto {
+            border: 1px solid #ff99cc;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a CristyBoom</h1>
+        <p>Tu tienda de maquillaje y productos de belleza</p>
+    </header>
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="bio" class="bio">
+        <h2>Sobre CristyBoom</h2>
+        <p>Hola, soy CristyBoom, una apasionada del maquillaje y la belleza. Desde pequeña, siempre me ha encantado experimentar con diferentes looks y productos. Ahora, me dedico a vender una selección cuidada de maquillaje y productos de belleza que amo y en los que confío.</p>
+    </section>
+    <section id="productos" class="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <h3>Labial Rosa Intenso</h3>
+            <img src="https://via.placeholder.com/150" alt="Labial Rosa Intenso">
+            <p>Un labial de larga duración con un color rosa vibrante perfecto para cualquier ocasión.</p>
+        </div>
+        <div class="producto">
+            <h3>Paleta de Sombras Primavera</h3>
+            <img src="https://via.placeholder.com/150" alt="Paleta de Sombras Primavera">
+            <p>Una paleta de sombras con colores frescos y brillantes inspirados en la primavera.</p>
+        </div>
+        <div class="producto">
+            <h3>Crema Hidratante Facial</h3>
+            <img src="https://via.placeholder.com/150" alt="Crema Hidratante Facial">
+            <p>Crema hidratante ligera y efectiva, perfecta para mantener tu piel suave y radiante.</p>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o quieres saber más sobre nuestros productos, no dudes en contactarnos.</p>
+        <p>Email: contacto@cristyboom.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 CristyBoom. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
